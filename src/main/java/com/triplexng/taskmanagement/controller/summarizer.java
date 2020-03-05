@@ -8,8 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("text-summary")
 public class summarizer {
+
+    
     @GetMapping(value = "/{id}", produces = "application/json")
     public String getBook(@PathVariable String id) {
+
         return id;
     }
 
