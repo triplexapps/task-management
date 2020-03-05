@@ -70,7 +70,7 @@ public class summarizer {
     }
 
     @PostMapping("/summarize")
-    public String[] summarize(@RequestBody ArticleContent articleContent) throws TextAPIException, MalformedURLException {
+    public String[] summarize(@RequestBody ArticleContent articleContent) throws TextAPIException {
 
         TextAPIClient client = new TextAPIClient("47afad3a", "1ff0073775cd9625faf2e59067ac69df");
 
