@@ -58,6 +58,11 @@
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
         </dependency>
+		<dependency>
+			<groupId>com.aylien.textapi</groupId>
+			<artifactId>client</artifactId>
+			<version>0.6.0</version>
+		</dependency>
 
     </dependencies>
 
